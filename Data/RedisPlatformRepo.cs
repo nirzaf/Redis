@@ -1,7 +1,3 @@
-using System.Text.Json;
-using CacheService.Models;
-using StackExchange.Redis;
-
 namespace CacheService.Data
 {
     public class RedisPlatformRepo : IPlatformRepo

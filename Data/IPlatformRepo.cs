@@ -1,5 +1,3 @@
-using CacheService.Models;
-
 namespace CacheService.Data
 {
     public interface IPlatformRepo

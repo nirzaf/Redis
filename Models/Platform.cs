@@ -1,13 +1,11 @@
-using System.ComponentModel.DataAnnotations;
-
 namespace CacheService.Models
 {
     public class Platform
     {
         [Required]
-        public string Id { get; set; } = $"platform:{Guid.NewGuid().ToString()}";
+        public string Id { get; set; } = $"platform:{Guid.NewGuid()}";
         
         [Required]
-        public string Name { get; set; } = String.Empty;
+        public string Name { get; set; } = string.Empty;
     }
 }

@@ -1,7 +1,3 @@
-using CacheService.Data;
-using CacheService.Models;
-using Microsoft.AspNetCore.Mvc;
-
 namespace CacheService.Controllers
 {
     [Route("api/[controller]")]
